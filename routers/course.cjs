@@ -1,5 +1,6 @@
 const {Router} = require("express")
 const courseRouter = Router()
+const {coursemodel} = require("../db.cjs")
 courseRouter.post("/purchase",function(req,res){
     res.json({
         "message": "Course purchased successfully",

@@ -1,5 +1,6 @@
 const {Router} = require("express")
 const adminRouter = Router()
+const {adminmodel} = require("../db.cjs")
 adminRouter.post("/signup",function(req,res){
 
 })

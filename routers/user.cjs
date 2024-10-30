@@ -1,5 +1,6 @@
 const {Router} = require("express")
 const userRouter = Router()
+const {usermodel} = require("../db.cjs")
 userRouter.post("/signup",function(req,res){
     res.json({
         message : "from user route"
